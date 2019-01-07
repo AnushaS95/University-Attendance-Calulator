@@ -1,0 +1,49 @@
+.loginhead{background: #000;color: #fff;margin: 0;}
+.card {border:none;}
+
+.userimage {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #c2c2c2;
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+}
+
+.userimage h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    font-size: 120px;
+    color: #c2c2c2;
+}
+
+.updateProfile .userimage {
+    left: 20px;
+}
+.updateProfile .userimage h2{
+    left: 12%;
+}
+
+.action a:last-child {
+    margin-right: auto;
+}
+
+.action a {
+    margin-right: 19px;
+    padding: 0;
+}
+
+.action a:hover {
+    text-decoration: unset;
+}
+
+.action a:hover i.fa {
+    color: #0893f5;
+}
+.action i.fa {
+    color: #000;
+}
